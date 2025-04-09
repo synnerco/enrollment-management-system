@@ -1,1 +1,1 @@
-# enrollment-management-system
+# Enrollment Management System
