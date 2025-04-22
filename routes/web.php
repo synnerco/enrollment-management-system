@@ -11,7 +11,8 @@ Route::get('dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::resource('students', \App\Http\Controllers\StudentController::class);
+Route::resource('student', \App\Http\Controllers\StudentController::class);
+Route::resource('faculty', \App\Http\Controllers\FacultyController::class);
 
 require __DIR__.'/settings.php';
 require __DIR__.'/auth.php';

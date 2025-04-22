@@ -7,13 +7,13 @@ defineProps({
 </script>
 
 <template>
-    <Head title="student Dashboard" />
+    <Head title="Teacher Dashboard" />
 
     <div class="min-h-screen bg-gray-50">
         <!-- Simple Header -->
         <header class="bg-white shadow">
             <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-                <h1 class="text-xl font-bold tracking-tight text-gray-900">Student Dashboard</h1>
+                <h1 class="text-xl font-bold tracking-tight text-gray-900">Teacher Dashboard</h1>
             </div>
         </header>
         
@@ -24,7 +24,7 @@ defineProps({
                     <!-- Welcome banner -->
                     <div class="relative overflow-hidden rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
                         <h1 class="text-2xl font-semibold">{{ message }}</h1>
-                        <p class="mt-2">Welcome to your Student Dashboard!</p>
+                        <p class="mt-2">Welcome to your Teacher Dashboard!</p>
                     </div>
 
                     <!-- Grid cards similar to admin dashboard -->
