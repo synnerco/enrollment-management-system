@@ -13,8 +13,8 @@ Route::get('dashboard', function () {
 
 Route::resource('student', \App\Http\Controllers\StudentController::class);
 Route::resource('faculty', \App\Http\Controllers\FacultyController::class);
-Route::resource('accountingstaff', \App\Http\Controllers\AccountingStaffController::class);
-Route::resource('registrarstaff', \App\Http\Controllers\RegistrarStaffController::class);
+Route::resource('accounting', \App\Http\Controllers\AccountingStaffController::class);
+Route::resource('registrar', \App\Http\Controllers\RegistrarStaffController::class);
 
 require __DIR__.'/settings.php';
 require __DIR__.'/auth.php';

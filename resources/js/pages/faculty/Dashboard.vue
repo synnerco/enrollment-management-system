@@ -11,12 +11,12 @@ defineProps({
 
     <div class="min-h-screen bg-gray-50">
         <!-- Simple Header -->
-        <header class="bg-white shadow">
+        <header class="bg-white dark:bg-gray-900 shadow">
             <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-                <h1 class="text-xl font-bold tracking-tight text-gray-900">Teacher Dashboard</h1>
+                <h1 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">Teacher Dashboard</h1>
             </div>
         </header>
-        
+
         <!-- Main Content -->
         <main>
             <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
@@ -38,7 +38,7 @@ defineProps({
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- Requirements Card -->
                         <div class="relative overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm">
                             <div class="p-4">
@@ -52,7 +52,7 @@ defineProps({
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- Next Steps Card -->
                         <div class="relative overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm">
                             <div class="p-4">
@@ -63,7 +63,7 @@ defineProps({
                             </div>
                         </div>
                     </div>
-                    
+
                     <!-- Main content area -->
                     <div class="relative min-h-[50vh] flex-1 rounded-xl border border-gray-200 bg-white p-6 shadow-sm md:min-h-min">
                         <h2 class="mb-4 text-xl font-semibold">Enrollment Details</h2>

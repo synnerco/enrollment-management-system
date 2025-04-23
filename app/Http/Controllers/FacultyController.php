@@ -12,11 +12,10 @@ class FacultyController extends Controller
      */
     public function index()
     {
-        //
         return Inertia::render('faculty/Dashboard',[
             'message' => 'Hello Jane from Faculty'
         ]);
-            
+
     }
 
     /**
